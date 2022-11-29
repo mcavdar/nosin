@@ -4,7 +4,7 @@
  *  file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-package org.mozilla.reference.browser.pip
+package zone.nosin.pip
 
 import android.app.Activity
 import kotlinx.coroutines.CoroutineScope

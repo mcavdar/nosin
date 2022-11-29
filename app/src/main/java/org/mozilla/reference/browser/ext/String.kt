@@ -4,7 +4,7 @@
  *  file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-package org.mozilla.reference.browser.ext
+package zone.nosin.ext
 
 /**
  * Replaces the keys with the values with the map provided.

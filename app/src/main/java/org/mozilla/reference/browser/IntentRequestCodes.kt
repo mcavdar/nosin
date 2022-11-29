@@ -4,7 +4,7 @@
  *  file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-package org.mozilla.reference.browser
+package zone.nosin
 
 object IntentRequestCodes {
     const val REQUEST_CODE_DATA_REPORTING = 0

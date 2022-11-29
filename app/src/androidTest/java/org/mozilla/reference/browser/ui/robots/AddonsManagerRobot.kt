@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser.ui.robots
+package zone.nosin.ui.robots
 
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.action.ViewActions.click
@@ -22,11 +22,11 @@ import androidx.test.uiautomator.Until
 import junit.framework.Assert.assertTrue
 import org.hamcrest.CoreMatchers.allOf
 import org.hamcrest.CoreMatchers.containsString
-import org.mozilla.reference.browser.R
-import org.mozilla.reference.browser.ext.waitAndInteract
-import org.mozilla.reference.browser.helpers.TestAssetHelper.waitingTime
-import org.mozilla.reference.browser.helpers.TestHelper.packageName
-import org.mozilla.reference.browser.helpers.click
+import zone.nosin.R
+import zone.nosin.ext.waitAndInteract
+import zone.nosin.helpers.TestAssetHelper.waitingTime
+import zone.nosin.helpers.TestHelper.packageName
+import zone.nosin.helpers.click
 
 /**
  * Implementation of Robot Pattern for the addons manager.

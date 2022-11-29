@@ -14,7 +14,7 @@
     <ID>MaxLineLength:AwesomeBarRobot.kt$AwesomeBarRobot.Transition$fun</ID>
     <ID>MaxLineLength:SettingsViewRobot.kt$private fun openLinksInAppsToggle()</ID>
     <ID>MaxLineLength:SettingsViewRobot.kt$private fun remoteDebuggingToggle()</ID>
-    <ID>MaxLineLength:SettingsViewTest.kt$SettingsViewTest$@Ignore("Test instrumentation process is crashing, see: https://github.com/mozilla-mobile/reference-browser/issues/1502")</ID>
+    <ID>MaxLineLength:SettingsViewTest.kt$SettingsViewTest$@Ignore("Test instrumentation process is crashing, see: https://github.com/mozilla-mobile/nosin/issues/1502")</ID>
     <ID>MaxLineLength:TabTrayMenuRobot.kt$TabTrayMenuRobot.Transition$// The 3dot "More options" button is actually an Android Options Menu (check tabstray_menu.xml) not a View that we treat as a menu</ID>
     <ID>MaxLineLength:TabTrayMenuRobot.kt$TabTrayMenuRobot.Transition$fun</ID>
     <ID>MaxLineLength:ThreeDotMenuTest.kt$ThreeDotMenuTest$// Verifies the Synced tabs menu opens from a tab's 3 dot menu and displays the correct view if the user isn't signed in</ID>

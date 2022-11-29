@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser.ui.robots
+package zone.nosin.ui.robots
 
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.assertion.ViewAssertions
@@ -11,8 +11,8 @@ import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.uiautomator.By
 import androidx.test.uiautomator.UiDevice
 import androidx.test.uiautomator.Until
-import org.mozilla.reference.browser.ext.waitAndInteract
-import org.mozilla.reference.browser.helpers.click
+import zone.nosin.ext.waitAndInteract
+import zone.nosin.helpers.click
 
 /**
  * Implementation of Robot Pattern for menu in tab tray that shows more options.

@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser.components
+package zone.nosin.components
 
 import android.content.Context
 import android.os.Build
@@ -25,9 +25,9 @@ import mozilla.components.service.fxa.SyncEngine
 import mozilla.components.service.fxa.manager.FxaAccountManager
 import mozilla.components.service.fxa.sync.GlobalSyncableStoreProvider
 import mozilla.components.service.sync.logins.SyncableLoginsStorage
-import org.mozilla.reference.browser.NotificationManager
-import org.mozilla.reference.browser.ext.components
-import org.mozilla.reference.browser.tabs.synced.SyncedTabsIntegration
+import zone.nosin.NotificationManager
+import zone.nosin.ext.components
+import zone.nosin.tabs.synced.SyncedTabsIntegration
 
 /**
  * Component group for background services. These are components that need to be accessed from

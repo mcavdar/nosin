@@ -2,16 +2,16 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser.settings
+package zone.nosin.settings
 
 import android.os.Bundle
 import androidx.preference.Preference.OnPreferenceChangeListener
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.SwitchPreferenceCompat
 import mozilla.components.concept.engine.EngineSession.TrackingProtectionPolicy
-import org.mozilla.reference.browser.R
-import org.mozilla.reference.browser.ext.getPreferenceKey
-import org.mozilla.reference.browser.ext.requireComponents
+import zone.nosin.R
+import zone.nosin.ext.getPreferenceKey
+import zone.nosin.ext.requireComponents
 
 class PrivacySettingsFragment : PreferenceFragmentCompat() {
 

@@ -8,7 +8,7 @@ set -ex
 export BRANCH="ac-update"
 export GITHUB_USER="MickeyMoz"
 export EMAIL="sebastian@mozilla.com"
-export REPO="reference-browser"
+export REPO="nosin"
 
 git config --global user.email "$EMAIL"
 git config --global user.name "$GITHUB_USER"

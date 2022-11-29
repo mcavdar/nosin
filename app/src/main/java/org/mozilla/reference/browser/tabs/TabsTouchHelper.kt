@@ -4,7 +4,7 @@
  *  file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-package org.mozilla.reference.browser.tabs
+package zone.nosin.tabs
 
 import androidx.recyclerview.widget.ItemTouchHelper
 import mozilla.components.browser.state.state.TabSessionState

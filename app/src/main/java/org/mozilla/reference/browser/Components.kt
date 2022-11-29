@@ -2,21 +2,21 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser
+package zone.nosin
 
 import android.annotation.SuppressLint
 import android.content.Context
 import mozilla.components.feature.autofill.AutofillConfiguration
-import org.mozilla.reference.browser.autofill.AutofillConfirmActivity
-import org.mozilla.reference.browser.autofill.AutofillSearchActivity
-import org.mozilla.reference.browser.autofill.AutofillUnlockActivity
-import org.mozilla.reference.browser.components.Analytics
-import org.mozilla.reference.browser.components.BackgroundServices
-import org.mozilla.reference.browser.components.Core
-import org.mozilla.reference.browser.components.Push
-import org.mozilla.reference.browser.components.Services
-import org.mozilla.reference.browser.components.UseCases
-import org.mozilla.reference.browser.components.Utilities
+import zone.nosin.autofill.AutofillConfirmActivity
+import zone.nosin.autofill.AutofillSearchActivity
+import zone.nosin.autofill.AutofillUnlockActivity
+import zone.nosin.components.Analytics
+import zone.nosin.components.BackgroundServices
+import zone.nosin.components.Core
+import zone.nosin.components.Push
+import zone.nosin.components.Services
+import zone.nosin.components.UseCases
+import zone.nosin.components.Utilities
 
 /**
  * Provides access to all components.

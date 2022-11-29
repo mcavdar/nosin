@@ -4,11 +4,11 @@
 
 @file:Suppress("DEPRECATION")
 
-package org.mozilla.reference.browser.helpers
+package zone.nosin.helpers
 
 import androidx.test.espresso.IdlingRegistry
 import androidx.test.rule.ActivityTestRule
-import org.mozilla.reference.browser.BrowserActivity
+import zone.nosin.BrowserActivity
 
 /**
  * A [org.junit.Rule] to handle shared test set up for tests on [BrowserActivity].

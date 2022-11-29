@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser.addons
+package zone.nosin.addons
 
 import android.content.Intent
 import android.os.Bundle
@@ -18,8 +18,8 @@ import kotlinx.coroutines.launch
 import mozilla.components.feature.addons.Addon
 import mozilla.components.feature.addons.AddonManagerException
 import mozilla.components.feature.addons.ui.translateName
-import org.mozilla.reference.browser.R
-import org.mozilla.reference.browser.ext.components
+import zone.nosin.R
+import zone.nosin.ext.components
 
 /**
  * An activity to show the details of a installed add-on.

@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser
+package zone.nosin
 
 import android.content.Context
 import android.content.Intent
@@ -11,8 +11,8 @@ import mozilla.components.browser.errorpages.ErrorPages
 import mozilla.components.browser.errorpages.ErrorType
 import mozilla.components.concept.engine.EngineSession
 import mozilla.components.concept.engine.request.RequestInterceptor
-import org.mozilla.reference.browser.ext.components
-import org.mozilla.reference.browser.tabs.PrivatePage
+import zone.nosin.ext.components
+import zone.nosin.tabs.PrivatePage
 
 /**
  * NB, and FIXME: this class is consumed by a 'Core' component group, but itself relies on 'firefoxAccountsFeature'

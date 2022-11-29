@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser.tabs
+package zone.nosin.tabs
 
 import android.content.Context
 import android.content.res.Resources
@@ -15,7 +15,7 @@ import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
 import com.google.android.material.tabs.TabLayout
 import mozilla.components.feature.tabs.tabstray.TabsFeature
-import org.mozilla.reference.browser.R
+import zone.nosin.R
 
 class TabsPanel @JvmOverloads constructor(
     context: Context,

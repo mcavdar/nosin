@@ -4,7 +4,7 @@
 
 @file:Suppress("TooManyFunctions")
 
-package org.mozilla.reference.browser.ui.robots
+package zone.nosin.ui.robots
 
 import android.content.Context
 import androidx.test.espresso.Espresso.onView
@@ -21,14 +21,14 @@ import androidx.test.uiautomator.UiSelector
 import androidx.test.uiautomator.Until
 import junit.framework.Assert
 import org.junit.Assert.assertNull
-import org.mozilla.reference.browser.R
-import org.mozilla.reference.browser.ext.waitAndInteract
-import org.mozilla.reference.browser.helpers.TestAssetHelper.waitingTime
-import org.mozilla.reference.browser.helpers.TestAssetHelper.waitingTimeShort
-import org.mozilla.reference.browser.helpers.TestHelper
-import org.mozilla.reference.browser.helpers.assertIsSelected
-import org.mozilla.reference.browser.helpers.click
-import org.mozilla.reference.browser.helpers.matchers.TabMatcher
+import zone.nosin.R
+import zone.nosin.ext.waitAndInteract
+import zone.nosin.helpers.TestAssetHelper.waitingTime
+import zone.nosin.helpers.TestAssetHelper.waitingTimeShort
+import zone.nosin.helpers.TestHelper
+import zone.nosin.helpers.assertIsSelected
+import zone.nosin.helpers.click
+import zone.nosin.helpers.matchers.TabMatcher
 
 /**
  * Implementation of Robot Pattern for the tab tray menu.

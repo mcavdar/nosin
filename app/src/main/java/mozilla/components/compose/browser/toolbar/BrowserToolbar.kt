@@ -19,8 +19,8 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import mozilla.components.browser.state.selector.selectedTab
 import mozilla.components.lib.state.observeAsState
-import org.mozilla.reference.browser.compose.browserStore
-import org.mozilla.reference.browser.compose.sessionUseCases
+import zone.nosin.compose.browserStore
+import zone.nosin.compose.sessionUseCases
 
 @Composable
 fun BrowserToolbar() {

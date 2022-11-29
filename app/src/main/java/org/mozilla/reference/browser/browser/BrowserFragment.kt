@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser.browser
+package zone.nosin.browser
 
 import android.os.Bundle
 import android.view.View
@@ -19,11 +19,11 @@ import mozilla.components.feature.tabs.toolbar.TabsToolbarFeature
 import mozilla.components.feature.toolbar.WebExtensionToolbarFeature
 import mozilla.components.support.base.feature.UserInteractionHandler
 import mozilla.components.support.base.feature.ViewBoundFeatureWrapper
-import org.mozilla.reference.browser.R
-import org.mozilla.reference.browser.ext.components
-import org.mozilla.reference.browser.ext.requireComponents
-import org.mozilla.reference.browser.search.AwesomeBarWrapper
-import org.mozilla.reference.browser.tabs.TabsTrayFragment
+import zone.nosin.R
+import zone.nosin.ext.components
+import zone.nosin.ext.requireComponents
+import zone.nosin.search.AwesomeBarWrapper
+import zone.nosin.tabs.TabsTrayFragment
 
 /**
  * Fragment used for browsing the web within the main app.

@@ -4,11 +4,11 @@
  *  file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-package org.mozilla.reference.browser.tabs
+package zone.nosin.tabs
 
 import android.content.Context
 import androidx.annotation.RawRes
-import org.mozilla.reference.browser.R
+import zone.nosin.R
 
 object PrivatePage {
     /**

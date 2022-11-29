@@ -2,12 +2,12 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser.helpers
+package zone.nosin.helpers
 
 import androidx.test.espresso.IdlingResource
 import androidx.test.platform.app.InstrumentationRegistry
 import mozilla.components.browser.state.selector.selectedTab
-import org.mozilla.reference.browser.BrowserApplication
+import zone.nosin.BrowserApplication
 
 /**
  * An IdlingResource implementation that waits until the current session is not loading anymore.

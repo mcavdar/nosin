@@ -16,8 +16,8 @@ taskgraph:
     register: rb_taskgraph:register
     repositories:
         mobile:
-            name: "reference-browser"
-    cached-task-prefix: mobile.v2.reference-browser
+            name: "nosin"
+    cached-task-prefix: mobile.v2.nosin
 
 workers:
     aliases:
@@ -61,4 +61,4 @@ workers:
             worker-type: 'gecko-{alias}'
 
 scriptworker:
-    scope-prefix: project:mobile:reference-browser:releng
+    scope-prefix: project:mobile:nosin:releng

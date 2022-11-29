@@ -2,14 +2,14 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser.helpers.matchers
+package zone.nosin.helpers.matchers
 
 import android.view.View
 import android.widget.TextView
 import org.hamcrest.Description
 import org.hamcrest.Matcher
 import org.hamcrest.TypeSafeMatcher
-import org.mozilla.reference.browser.R
+import zone.nosin.R
 
 /**
  * A custom matcher for finding tabs to match text within them.

@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser.settings
+package zone.nosin.settings
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,9 +12,9 @@ import androidx.fragment.app.Fragment
 import mozilla.components.feature.qr.QrFeature
 import mozilla.components.support.base.feature.UserInteractionHandler
 import mozilla.components.support.base.feature.ViewBoundFeatureWrapper
-import org.mozilla.reference.browser.AppPermissionCodes.REQUEST_CODE_CAMERA_PERMISSIONS
-import org.mozilla.reference.browser.R
-import org.mozilla.reference.browser.ext.requireComponents
+import zone.nosin.AppPermissionCodes.REQUEST_CODE_CAMERA_PERMISSIONS
+import zone.nosin.R
+import zone.nosin.ext.requireComponents
 
 class PairSettingsFragment : Fragment(), UserInteractionHandler {
     private val qrFeature = ViewBoundFeatureWrapper<QrFeature>()

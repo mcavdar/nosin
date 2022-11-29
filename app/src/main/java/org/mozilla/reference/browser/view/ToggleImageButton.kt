@@ -4,7 +4,7 @@
  *  file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-package org.mozilla.reference.browser.view
+package zone.nosin.view
 
 import android.content.Context
 import android.util.AttributeSet
@@ -18,7 +18,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat
 import mozilla.components.support.base.android.Padding
 import mozilla.components.support.ktx.android.view.setPadding
-import org.mozilla.reference.browser.R
+import zone.nosin.R
 
 /**
  * Based off the internal version of com.google.android.material.internal.CheckableImageButton

@@ -1,7 +1,7 @@
 # Google Cloud Documentation: https://cloud.google.com/sdk/gcloud/reference/firebase/test/android/run
 # Flank Documentation: https://flank.github.io/flank/
 gcloud:
-  results-bucket: reference-browser_test_artifacts
+  results-bucket: nosin_test_artifacts
   record-video: true
 
   timeout: 30m
@@ -20,7 +20,7 @@ gcloud:
   performance-metrics: true
 
   test-targets:
-    - package org.mozilla.reference.browser.ui
+    - package zone.nosin.ui
 
   device:
     - model: Pixel2.arm

@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser.helpers
+package zone.nosin.helpers
 
 import android.net.Uri
 import android.os.Handler
@@ -13,7 +13,7 @@ import okhttp3.mockwebserver.MockWebServer
 import okhttp3.mockwebserver.RecordedRequest
 import okio.Buffer
 import okio.source
-import org.mozilla.reference.browser.helpers.ext.toUri
+import zone.nosin.helpers.ext.toUri
 import java.io.IOException
 import java.io.InputStream
 

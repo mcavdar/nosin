@@ -24,4 +24,4 @@ job-template:
     worker:
         channel: nightly
         commit: true
-        product: reference-browser
+        product: nosin

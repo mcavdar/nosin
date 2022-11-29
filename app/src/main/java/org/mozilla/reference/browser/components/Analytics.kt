@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser.components
+package zone.nosin.components
 
 import android.app.PendingIntent
 import android.app.PendingIntent.FLAG_MUTABLE
@@ -17,9 +17,9 @@ import org.mozilla.geckoview.BuildConfig.MOZ_APP_BUILDID
 import org.mozilla.geckoview.BuildConfig.MOZ_APP_VENDOR
 import org.mozilla.geckoview.BuildConfig.MOZ_APP_VERSION
 import org.mozilla.geckoview.BuildConfig.MOZ_UPDATE_CHANNEL
-import org.mozilla.reference.browser.BrowserApplication
-import org.mozilla.reference.browser.BuildConfig
-import org.mozilla.reference.browser.R
+import zone.nosin.BrowserApplication
+import zone.nosin.BuildConfig
+import zone.nosin.R
 
 /**
  * Component group for all functionality related to analytics e.g. crash

@@ -2,13 +2,13 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser
+package zone.nosin
 
 import android.net.Uri
 import androidx.fragment.app.Fragment
 import mozilla.components.concept.engine.manifest.WebAppManifest
 import mozilla.components.feature.pwa.ext.getWebAppManifest
-import org.mozilla.reference.browser.browser.ExternalAppBrowserFragment
+import zone.nosin.browser.ExternalAppBrowserFragment
 
 /**
  * Activity that holds the BrowserFragment that is launched within an external app,

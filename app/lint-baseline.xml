@@ -6,7 +6,7 @@
         errorLine1="        versionInfoView.setOnTouchListener { _, _ ->"
         errorLine2="        ^">
         <location
-            file="src/main/java/org/mozilla/reference/browser/settings/AboutFragment.kt"
+            file="src/main/java/zone.nosin/settings/AboutFragment.kt"
             line="72"
             column="9"/>
     </issue>

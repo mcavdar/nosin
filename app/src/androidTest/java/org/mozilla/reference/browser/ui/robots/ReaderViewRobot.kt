@@ -19,11 +19,11 @@ import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.uiautomator.UiSelector
 import org.hamcrest.CoreMatchers.allOf
 import org.junit.Assert.assertEquals
-import org.mozilla.reference.browser.R
-import org.mozilla.reference.browser.helpers.TestAssetHelper.waitingTime
-import org.mozilla.reference.browser.helpers.TestHelper.packageName
-import org.mozilla.reference.browser.helpers.click
-import org.mozilla.reference.browser.ui.robots.mDevice
+import zone.nosin.R
+import zone.nosin.helpers.TestAssetHelper.waitingTime
+import zone.nosin.helpers.TestHelper.packageName
+import zone.nosin.helpers.click
+import zone.nosin.ui.robots.mDevice
 
 /**
  * Implementation of Robot Pattern for Reader View UI.

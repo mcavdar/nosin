@@ -4,12 +4,12 @@
  *  file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-package org.mozilla.reference.browser.customtabs
+package zone.nosin.customtabs
 
 import mozilla.components.concept.engine.Engine
 import mozilla.components.feature.customtabs.AbstractCustomTabsService
 import mozilla.components.feature.customtabs.store.CustomTabsServiceStore
-import org.mozilla.reference.browser.ext.components
+import zone.nosin.ext.components
 
 class CustomTabsService : AbstractCustomTabsService() {
     override val customTabsServiceStore: CustomTabsServiceStore by lazy { components.core.customTabsStore }

@@ -2,14 +2,14 @@
 * License, v. 2.0. If a copy of the MPL was not distributed with this
 * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser.ui.robots
+package zone.nosin.ui.robots
 
 import androidx.test.espresso.Espresso
 import androidx.test.espresso.assertion.ViewAssertions
 import androidx.test.espresso.matcher.ViewMatchers
 import androidx.test.uiautomator.By
 import androidx.test.uiautomator.Until
-import org.mozilla.reference.browser.helpers.TestAssetHelper
+import zone.nosin.helpers.TestAssetHelper
 
 /**
  * Implementation of Robot Pattern for the settings privacy menu.

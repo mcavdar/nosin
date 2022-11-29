@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser.browser
+package zone.nosin.browser
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -16,8 +16,8 @@ import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import mozilla.components.lib.crash.Crash
 import mozilla.components.lib.crash.CrashReporter
-import org.mozilla.reference.browser.BrowserApplication.Companion.NON_FATAL_CRASH_BROADCAST
-import org.mozilla.reference.browser.ext.isCrashReportActive
+import zone.nosin.BrowserApplication.Companion.NON_FATAL_CRASH_BROADCAST
+import zone.nosin.ext.isCrashReportActive
 
 class CrashIntegration(
     private val context: Context,

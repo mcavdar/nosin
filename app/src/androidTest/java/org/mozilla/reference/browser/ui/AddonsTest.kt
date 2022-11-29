@@ -1,14 +1,14 @@
-package org.mozilla.reference.browser.ui
+package zone.nosin.ui
 
 import okhttp3.mockwebserver.MockWebServer
 import org.junit.After
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import org.mozilla.reference.browser.helpers.AndroidAssetDispatcher
-import org.mozilla.reference.browser.helpers.BrowserActivityTestRule
-import org.mozilla.reference.browser.helpers.RetryTestRule
-import org.mozilla.reference.browser.ui.robots.navigationToolbar
+import zone.nosin.helpers.AndroidAssetDispatcher
+import zone.nosin.helpers.BrowserActivityTestRule
+import zone.nosin.helpers.RetryTestRule
+import zone.nosin.ui.robots.navigationToolbar
 
 class AddonsTest {
 

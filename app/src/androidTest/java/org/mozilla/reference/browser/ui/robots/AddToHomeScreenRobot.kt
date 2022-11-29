@@ -2,10 +2,10 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser.ui.robots
+package zone.nosin.ui.robots
 
 import androidx.test.uiautomator.UiSelector
-import org.mozilla.reference.browser.helpers.TestAssetHelper.waitingTime
+import zone.nosin.helpers.TestAssetHelper.waitingTime
 
 /**
  * Implementation of Robot Pattern for the Add to homescreen feature.

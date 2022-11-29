@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser.browser
+package zone.nosin.browser
 
 import android.content.Context
 import android.content.Intent
@@ -37,12 +37,12 @@ import mozilla.components.lib.state.ext.flow
 import mozilla.components.support.base.feature.LifecycleAwareFeature
 import mozilla.components.support.base.feature.UserInteractionHandler
 import mozilla.components.support.ktx.kotlinx.coroutines.flow.ifChanged
-import org.mozilla.reference.browser.R
-import org.mozilla.reference.browser.addons.AddonsActivity
-import org.mozilla.reference.browser.ext.components
-import org.mozilla.reference.browser.ext.share
-import org.mozilla.reference.browser.settings.SettingsActivity
-import org.mozilla.reference.browser.tabs.synced.SyncedTabsActivity
+import zone.nosin.R
+import zone.nosin.addons.AddonsActivity
+import zone.nosin.ext.components
+import zone.nosin.ext.share
+import zone.nosin.settings.SettingsActivity
+import zone.nosin.tabs.synced.SyncedTabsActivity
 
 @Suppress("LongParameterList")
 class ToolbarIntegration(
@@ -163,7 +163,7 @@ class ToolbarIntegration(
 
             TextMenuCandidate(text = "Report issue") {
                 tabsUseCases.addTab(
-                    url = "https://github.com/mozilla-mobile/reference-browser/issues/new"
+                    url = "https://github.com/mozilla-mobile/nosin/issues/new"
                 )
             },
 

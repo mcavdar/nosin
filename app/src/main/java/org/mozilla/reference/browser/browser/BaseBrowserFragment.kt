@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser.browser
+package zone.nosin.browser
 
 import android.content.Intent
 import android.os.Build
@@ -42,15 +42,15 @@ import mozilla.components.support.base.feature.ViewBoundFeatureWrapper
 import mozilla.components.support.base.log.logger.Logger
 import mozilla.components.support.ktx.android.view.enterToImmersiveMode
 import mozilla.components.support.ktx.android.view.exitImmersiveMode
-import org.mozilla.reference.browser.AppPermissionCodes.REQUEST_CODE_APP_PERMISSIONS
-import org.mozilla.reference.browser.AppPermissionCodes.REQUEST_CODE_DOWNLOAD_PERMISSIONS
-import org.mozilla.reference.browser.AppPermissionCodes.REQUEST_CODE_PROMPT_PERMISSIONS
-import org.mozilla.reference.browser.BuildConfig
-import org.mozilla.reference.browser.R
-import org.mozilla.reference.browser.downloads.DownloadService
-import org.mozilla.reference.browser.ext.getPreferenceKey
-import org.mozilla.reference.browser.ext.requireComponents
-import org.mozilla.reference.browser.pip.PictureInPictureIntegration
+import zone.nosin.AppPermissionCodes.REQUEST_CODE_APP_PERMISSIONS
+import zone.nosin.AppPermissionCodes.REQUEST_CODE_DOWNLOAD_PERMISSIONS
+import zone.nosin.AppPermissionCodes.REQUEST_CODE_PROMPT_PERMISSIONS
+import zone.nosin.BuildConfig
+import zone.nosin.R
+import zone.nosin.downloads.DownloadService
+import zone.nosin.ext.getPreferenceKey
+import zone.nosin.ext.requireComponents
+import zone.nosin.pip.PictureInPictureIntegration
 import mozilla.components.browser.toolbar.behavior.ToolbarPosition as MozacToolbarBehaviorToolbarPosition
 import mozilla.components.feature.session.behavior.ToolbarPosition as MozacEngineBehaviorToolbarPosition
 

@@ -4,18 +4,18 @@
 
 @file:Suppress("DEPRECATION")
 
-package org.mozilla.reference.browser.ui
+package zone.nosin.ui
 
 import androidx.core.net.toUri
 import androidx.test.rule.GrantPermissionRule
 import org.junit.Ignore
 import org.junit.Rule
 import org.junit.Test
-import org.mozilla.reference.browser.helpers.BrowserActivityTestRule
-import org.mozilla.reference.browser.helpers.RetryTestRule
-import org.mozilla.reference.browser.helpers.TestHelper.scrollToElementByText
-import org.mozilla.reference.browser.ui.robots.mDevice
-import org.mozilla.reference.browser.ui.robots.navigationToolbar
+import zone.nosin.helpers.BrowserActivityTestRule
+import zone.nosin.helpers.RetryTestRule
+import zone.nosin.helpers.TestHelper.scrollToElementByText
+import zone.nosin.ui.robots.mDevice
+import zone.nosin.ui.robots.navigationToolbar
 
 /**
  *   Tests for verifying the settings view options exist as expected:
@@ -75,7 +75,7 @@ class SettingsViewTest {
 
     // openFXAQrCodeTest tests that we get to the camera
     // Additional tests are needed to verify that the QR code reader works
-    @Ignore("Test instrumentation process is crashing, see: https://github.com/mozilla-mobile/reference-browser/issues/1502")
+    @Ignore("Test instrumentation process is crashing, see: https://github.com/mozilla-mobile/nosin/issues/1502")
     @Test
     fun openFXAQrCodeTest() {
         navigationToolbar {
@@ -150,7 +150,7 @@ class SettingsViewTest {
 
     /* Can't check further because after creating the custom add-on collection
     the currently running process is terminated see:
-    /blob/master/app/src/main/java/org/mozilla/reference/browser/settings/SettingsFragment.kt#L217
+    /blob/master/app/src/main/java/zone.nosin/settings/SettingsFragment.kt#L217
     Confirming the custom add-on collection creation or trying to continue testing afterwards
     will cause the test instrumentation process to crash */
     @Test

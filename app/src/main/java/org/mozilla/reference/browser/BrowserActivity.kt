@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser
+package zone.nosin
 
 import android.content.Context
 import android.content.Intent
@@ -25,11 +25,11 @@ import mozilla.components.support.base.feature.UserInteractionHandler
 import mozilla.components.support.base.log.logger.Logger
 import mozilla.components.support.utils.SafeIntent
 import mozilla.components.support.webextensions.WebExtensionPopupFeature
-import org.mozilla.reference.browser.addons.WebExtensionActionPopupActivity
-import org.mozilla.reference.browser.browser.BrowserFragment
-import org.mozilla.reference.browser.browser.CrashIntegration
-import org.mozilla.reference.browser.ext.components
-import org.mozilla.reference.browser.ext.isCrashReportActive
+import zone.nosin.addons.WebExtensionActionPopupActivity
+import zone.nosin.browser.BrowserFragment
+import zone.nosin.browser.CrashIntegration
+import zone.nosin.ext.components
+import zone.nosin.ext.isCrashReportActive
 
 /**
  * Activity that holds the [BrowserFragment].

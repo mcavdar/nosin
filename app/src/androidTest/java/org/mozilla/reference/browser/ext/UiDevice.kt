@@ -2,13 +2,13 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser.ext
+package zone.nosin.ext
 
 import androidx.test.uiautomator.SearchCondition
 import androidx.test.uiautomator.UiDevice
 import androidx.test.uiautomator.UiObject2
 import org.junit.Assert.assertNotNull
-import org.mozilla.reference.browser.helpers.TestAssetHelper.waitingTime
+import zone.nosin.helpers.TestAssetHelper.waitingTime
 
 /**
  * Wait for an [UiObject2] and perform an interaction on it.

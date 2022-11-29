@@ -1,12 +1,12 @@
-package org.mozilla.reference.browser.ui.robots
+package zone.nosin.ui.robots
 
 import androidx.test.uiautomator.By
 import androidx.test.uiautomator.UiSelector
 import androidx.test.uiautomator.Until
 import junit.framework.Assert.assertTrue
-import org.mozilla.reference.browser.helpers.TestAssetHelper.waitingTime
-import org.mozilla.reference.browser.helpers.TestHelper.getPermissionAllowID
-import org.mozilla.reference.browser.helpers.TestHelper.packageName
+import zone.nosin.helpers.TestAssetHelper.waitingTime
+import zone.nosin.helpers.TestHelper.getPermissionAllowID
+import zone.nosin.helpers.TestHelper.packageName
 
 class DownloadRobot {
     fun cancelDownload() {

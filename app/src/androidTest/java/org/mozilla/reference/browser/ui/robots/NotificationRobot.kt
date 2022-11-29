@@ -1,10 +1,10 @@
-package org.mozilla.reference.browser.ui.robots
+package zone.nosin.ui.robots
 
 import androidx.test.uiautomator.UiScrollable
 import androidx.test.uiautomator.UiSelector
 import junit.framework.Assert.assertFalse
 import junit.framework.Assert.assertTrue
-import org.mozilla.reference.browser.helpers.TestAssetHelper.waitingTime
+import zone.nosin.helpers.TestAssetHelper.waitingTime
 
 class NotificationRobot {
 

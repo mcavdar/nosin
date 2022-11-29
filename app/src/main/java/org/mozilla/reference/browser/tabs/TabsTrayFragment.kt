@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser.tabs
+package zone.nosin.tabs
 
 import android.content.Context
 import android.graphics.Color
@@ -22,10 +22,10 @@ import mozilla.components.browser.tabstray.ViewHolderProvider
 import mozilla.components.browser.thumbnails.loader.ThumbnailLoader
 import mozilla.components.feature.tabs.tabstray.TabsFeature
 import mozilla.components.support.base.feature.UserInteractionHandler
-import org.mozilla.reference.browser.R
-import org.mozilla.reference.browser.browser.BrowserFragment
-import org.mozilla.reference.browser.ext.components
-import org.mozilla.reference.browser.ext.requireComponents
+import zone.nosin.R
+import zone.nosin.browser.BrowserFragment
+import zone.nosin.ext.components
+import zone.nosin.ext.requireComponents
 
 /**
  * A fragment for displaying the tabs tray.

@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser.browser
+package zone.nosin.browser
 
 import android.app.Activity
 import android.content.Context
@@ -33,9 +33,9 @@ import mozilla.components.support.base.feature.LifecycleAwareFeature
 import mozilla.components.support.base.feature.UserInteractionHandler
 import mozilla.components.support.base.log.logger.Logger
 import mozilla.components.support.ktx.kotlinx.coroutines.flow.ifChanged
-import org.mozilla.reference.browser.BrowserActivity
-import org.mozilla.reference.browser.R
-import org.mozilla.reference.browser.ext.share
+import zone.nosin.BrowserActivity
+import zone.nosin.R
+import zone.nosin.ext.share
 
 @Suppress("LongParameterList")
 class CustomTabsIntegration(

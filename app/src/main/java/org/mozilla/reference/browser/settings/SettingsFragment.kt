@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser.settings
+package zone.nosin.settings
 
 import android.content.DialogInterface
 import android.content.Intent
@@ -20,21 +20,21 @@ import androidx.preference.Preference.OnPreferenceClickListener
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.SwitchPreferenceCompat
 import mozilla.components.support.ktx.android.view.showKeyboard
-import org.mozilla.reference.browser.R
-import org.mozilla.reference.browser.R.string.pref_key_about_page
-import org.mozilla.reference.browser.R.string.pref_key_firefox_account
-import org.mozilla.reference.browser.R.string.pref_key_make_default_browser
-import org.mozilla.reference.browser.R.string.pref_key_override_amo_collection
-import org.mozilla.reference.browser.R.string.pref_key_pair_sign_in
-import org.mozilla.reference.browser.R.string.pref_key_privacy
-import org.mozilla.reference.browser.R.string.pref_key_remote_debugging
-import org.mozilla.reference.browser.R.string.pref_key_sign_in
-import org.mozilla.reference.browser.autofill.AutofillPreference
-import org.mozilla.reference.browser.ext.getPreferenceKey
-import org.mozilla.reference.browser.ext.requireComponents
+import zone.nosin.R
+import zone.nosin.R.string.pref_key_about_page
+import zone.nosin.R.string.pref_key_firefox_account
+import zone.nosin.R.string.pref_key_make_default_browser
+import zone.nosin.R.string.pref_key_override_amo_collection
+import zone.nosin.R.string.pref_key_pair_sign_in
+import zone.nosin.R.string.pref_key_privacy
+import zone.nosin.R.string.pref_key_remote_debugging
+import zone.nosin.R.string.pref_key_sign_in
+import zone.nosin.autofill.AutofillPreference
+import zone.nosin.ext.getPreferenceKey
+import zone.nosin.ext.requireComponents
 import kotlin.system.exitProcess
 
-private typealias RBSettings = org.mozilla.reference.browser.settings.Settings
+private typealias RBSettings = zone.nosin.settings.Settings
 
 @Suppress("TooManyFunctions")
 class SettingsFragment : PreferenceFragmentCompat() {

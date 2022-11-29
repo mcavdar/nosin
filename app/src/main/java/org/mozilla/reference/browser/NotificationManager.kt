@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser
+package zone.nosin
 
 import android.annotation.TargetApi
 import android.app.Notification
@@ -20,8 +20,8 @@ import androidx.preference.PreferenceManager
 import mozilla.components.concept.sync.Device
 import mozilla.components.concept.sync.TabData
 import mozilla.components.support.base.log.logger.Logger
-import org.mozilla.reference.browser.IntentRequestCodes.REQUEST_CODE_DATA_REPORTING
-import org.mozilla.reference.browser.IntentRequestCodes.REQUEST_CODE_SEND_TAB
+import zone.nosin.IntentRequestCodes.REQUEST_CODE_DATA_REPORTING
+import zone.nosin.IntentRequestCodes.REQUEST_CODE_SEND_TAB
 import android.app.NotificationManager as AndroidNotificationManager
 
 /**
@@ -30,13 +30,13 @@ import android.app.NotificationManager as AndroidNotificationManager
 object NotificationManager {
 
     // Send Tab
-    private const val RECEIVE_TABS_TAG = "org.mozilla.reference.browser.receivedTabs"
-    private const val RECEIVE_TABS_CHANNEL_ID = "org.mozilla.reference.browser.ReceivedTabsChannel"
+    private const val RECEIVE_TABS_TAG = "zone.nosin.receivedTabs"
+    private const val RECEIVE_TABS_CHANNEL_ID = "zone.nosin.ReceivedTabsChannel"
 
     // Data Reporting
     private const val PRIVACY_NOTICE_URL = "https://www.mozilla.org/en-US/privacy/firefox/"
     private const val DATA_REPORTING_VERSION = 1
-    private const val DATA_REPORTING_TAG = "org.mozilla.reference.browser.DataReporting"
+    private const val DATA_REPORTING_TAG = "zone.nosin.DataReporting"
     private const val DATA_REPORTING_NOTIFICATION_ID = 1
     private const val PREFS_POLICY_VERSION = "datareporting.policy.dataSubmissionPolicyVersion"
     private const val PREFS_POLICY_NOTIFIED_TIME =

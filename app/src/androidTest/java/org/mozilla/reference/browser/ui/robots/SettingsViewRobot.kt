@@ -4,7 +4,7 @@
 
 @file:Suppress("TooManyFunctions")
 
-package org.mozilla.reference.browser.ui.robots
+package zone.nosin.ui.robots
 
 import androidx.test.espresso.Espresso
 import androidx.test.espresso.Espresso.onView
@@ -20,13 +20,13 @@ import androidx.test.uiautomator.By
 import androidx.test.uiautomator.UiSelector
 import androidx.test.uiautomator.Until
 import org.hamcrest.CoreMatchers.allOf
-import org.mozilla.reference.browser.R
-import org.mozilla.reference.browser.helpers.TestAssetHelper
-import org.mozilla.reference.browser.helpers.TestAssetHelper.waitingTime
-import org.mozilla.reference.browser.helpers.TestHelper
-import org.mozilla.reference.browser.helpers.TestHelper.packageName
-import org.mozilla.reference.browser.helpers.click
-import org.mozilla.reference.browser.helpers.hasCousin
+import zone.nosin.R
+import zone.nosin.helpers.TestAssetHelper
+import zone.nosin.helpers.TestAssetHelper.waitingTime
+import zone.nosin.helpers.TestHelper
+import zone.nosin.helpers.TestHelper.packageName
+import zone.nosin.helpers.click
+import zone.nosin.helpers.hasCousin
 
 /**
  * Implementation of Robot Pattern for the settings menu.

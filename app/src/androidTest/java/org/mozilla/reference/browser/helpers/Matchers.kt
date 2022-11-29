@@ -2,7 +2,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.reference.browser.helpers
+package zone.nosin.helpers
 
 import android.view.View
 import android.view.ViewGroup
@@ -10,7 +10,7 @@ import org.hamcrest.BaseMatcher
 import org.hamcrest.CoreMatchers.not
 import org.hamcrest.Description
 import org.hamcrest.Matcher
-import org.mozilla.reference.browser.ext.children
+import zone.nosin.ext.children
 import androidx.test.espresso.matcher.ViewMatchers.isChecked as espressoIsChecked
 import androidx.test.espresso.matcher.ViewMatchers.isEnabled as espressoIsEnabled
 import androidx.test.espresso.matcher.ViewMatchers.isSelected as espressoIsSelected
