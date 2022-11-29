@@ -19,7 +19,7 @@ import zone.nosin.helpers.TestAssetHelper.waitingTimeShort
 import zone.nosin.helpers.TestHelper.packageName
 
 /**
- * Implementation of Robot Pattern for any non-Reference Browser (external) apps.
+ * Implementation of Robot Pattern for any non-nosin (external) apps.
  */
 class ExternalAppsRobot {
     fun verifyAndroidDefaultApps() = assertDefaultAppsLayout()

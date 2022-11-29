@@ -184,7 +184,7 @@ private fun assertRemoteDebugging() = remoteDebuggingToggle()
 private fun assertCustomAddonCollectionButton() = customAddonCollectionButton()
     .check(matches(withEffectiveVisibility(ViewMatchers.Visibility.VISIBLE)))
 private fun assertMozillaHeading() {
-    TestHelper.scrollToElementByText("About Reference Browser")
+    TestHelper.scrollToElementByText("About nosin")
     mozillaHeading().check(matches(withEffectiveVisibility(ViewMatchers.Visibility.VISIBLE)))
 }
 private fun assertAboutReferenceBrowserButton() = aboutReferenceBrowserButton()

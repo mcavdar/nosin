@@ -16,7 +16,7 @@ transforms:
     - taskgraph.transforms.task:transforms
 
 job-template:
-    description: Publish Reference Browser
+    description: Publish nosin
     treeherder:
         kind: build
         symbol: gp

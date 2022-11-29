@@ -23,7 +23,7 @@ job-defaults:
         type: file
         name: public/target.{abi}.apk
         path: '/builds/worker/checkouts/vcs/app/build/outputs/apk/{gradle_build_type}/{fileName}'
-    description: Build Reference Browser from source code.
+    description: Build nosin from source code.
     fetches:
         toolchain:
             - android-sdk-linux

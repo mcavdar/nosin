@@ -57,7 +57,7 @@ class AddonsManagerRobot {
 
     fun dismissAddonDownloadCompletedPrompt(addonName: String) {
         mDevice.waitForWindowUpdate(packageName, waitingTime)
-        mDevice.findObject(UiSelector().text("$addonName has been added to Reference Browser"))
+        mDevice.findObject(UiSelector().text("$addonName has been added to nosin"))
             .waitForExists(waitingTime)
         mDevice.waitAndInteract(Until.findObject(By.text("Okay, Got it"))) {}
         val gotItButton = mDevice.findObject(UiSelector().text("Okay, Got it"))
@@ -191,7 +191,7 @@ class AddonsManagerRobot {
         assertTrue(
             mDevice.findObject(
                 UiSelector()
-                    .textContains("$addonName has been added to Reference Browser")
+                    .textContains("$addonName has been added to nosin")
             )
                 .waitForExists(waitingTime)
         )

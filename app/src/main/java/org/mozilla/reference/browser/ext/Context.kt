@@ -56,7 +56,7 @@ fun Context.share(text: String, subject: String = ""): Boolean {
         startActivity(shareIntent)
         true
     } catch (e: ActivityNotFoundException) {
-        Log.log(WARN, message = "No activity to share to found", throwable = e, tag = "Reference-Browser")
+        Log.log(WARN, message = "No activity to share to found", throwable = e, tag = "nosin")
         false
     }
 }

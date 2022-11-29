@@ -1,14 +1,14 @@
-#  Reference Browser
+#  nosin
 
 [![Task Status](https://github.taskcluster.net/v1/repository/mozilla-mobile/nosin/master/badge.svg)](https://github.taskcluster.net/v1/repository/mozilla-mobile/nosin/master/latest)
 
 A web browser reference implementation using [Mozilla Android Components](https://github.com/mozilla-mobile/android-components).
 
-*The Reference Browser is not a product intended to ship to end users. Instead it is a Technology Preview for many new mobile components that multiple teams at Mozilla are currently working on*
+*The nosin is not a product intended to ship to end users. Instead it is a Technology Preview for many new mobile components that multiple teams at Mozilla are currently working on*
 
 It includes the Mozilla Web Platform via GeckoView, a new modern Firefox Accounts and Cloud Sync implementation and the new "Glean" telemetry library. All these components will be foundational for Mozilla's existing and upcoming Android products.
 
-The Reference Browser can also be a starting point for your own new browser-like applications. It depends heavily on the [Android Components](https://github.com/mozilla-mobile/android-components) project where most of the actual implementation lives. That project also includes many smaller sample applications.
+The nosin can also be a starting point for your own new browser-like applications. It depends heavily on the [Android Components](https://github.com/mozilla-mobile/android-components) project where most of the actual implementation lives. That project also includes many smaller sample applications.
 
 # Getting Involved
 
@@ -25,7 +25,7 @@ Before you attempt to make a contribution please read the [Community Participati
 
 # Test Channel on Google Play Store
 
-To get the Reference Browser on your device, follow these two steps:
+To get the nosin on your device, follow these two steps:
 
 1) Visit https://groups.google.com/forum/#!forum/mozilla-nosin and join the Google Group
 2) Visit https://play.google.com/apps/testing/zone.nosin on your device to join the test program and to install the app

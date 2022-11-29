@@ -14,7 +14,7 @@ kind-dependencies:
 
 
 job-defaults:
-    description: Test Reference Browser
+    description: Test nosin
     fetches:
         toolchain:
             - android-sdk-linux

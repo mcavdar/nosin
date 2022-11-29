@@ -12,7 +12,7 @@ transforms:
     - taskgraph.transforms.task:transforms
 
 job-defaults:
-    description: Build Reference Browser from source code.
+    description: Build nosin from source code.
     treeherder:
         kind: build
         symbol: bump(a-c)

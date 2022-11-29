@@ -142,7 +142,7 @@ class SettingsViewTest {
         navigationToolbar {
         }.openThreeDotMenu {
         }.openSettings {
-            scrollToElementByText("About Reference Browser")
+            scrollToElementByText("About nosin")
         }.openAboutReferenceBrowser {
             verifyAboutBrowser()
         }
@@ -158,7 +158,7 @@ class SettingsViewTest {
         navigationToolbar {
         }.openThreeDotMenu {
         }.openSettings {
-            scrollToElementByText("About Reference Browser")
+            scrollToElementByText("About nosin")
             verifyCustomAddonCollectionButton()
             clickCustomAddonCollectionButton()
             verifyCustomAddonCollectionPanelExist()
